@@ -22,6 +22,62 @@
 - Task 5: Retrieval Augmented Generation
      - 🚧 ACTIVITY #1: Augment RAG
 
+### VectorDatabase Enhancements
+
+The VectorDatabase class has been enhanced with comprehensive metadata support:
+
+#### Document-Level Metadata
+- Store metadata for entire documents (e.g., source, author, date range)
+- Metadata automatically propagated to all chunks from the same document
+- Example:
+```python
+doc_metadata = {
+    "source": "PMarca Blog Archives",
+    "author": "Marc Andreessen",
+    "date_range": "2007-2009",
+    "copyright": "Andreessen Horowitz"
+}
+```
+
+#### Section-Level Metadata
+- Attach metadata to individual chunks (e.g., guide type, part number, section title)
+- Support for hierarchical document structure
+- Example:
+```python
+chunk_metadata = {
+    "guide_type": "THE PMARCA GUIDE TO STARTUPS",
+    "part_number": "Part 1",
+    "section_title": "Why not to do a startup",
+    "page_number": 2,
+    "topic_category": "STARTUPS"
+}
+```
+
+#### Enhanced Search Capabilities
+- Filter search results based on metadata criteria
+- Combine document and section metadata in search results
+- Example:
+```python
+def filter_by_guide(metadata: dict) -> bool:
+    return metadata.get("guide_type") == "THE PMARCA GUIDE TO STARTUPS"
+
+results = vector_db.search_by_text(
+    "startup funding advice",
+    k=2,
+    filter_fn=filter_by_guide
+)
+```
+
+#### Usage
+```python
+# Initialize database with chunks and metadata
+vector_db = await vector_db.abuild_from_chunks(
+    chunks=chunks,
+    doc_id="pmarca_blog",
+    doc_metadata=doc_metadata
+)
+```
+
 ### Steps to Run:
 
 1. Install UV - which you can do through [this resource](https://docs.astral.sh/uv/#getting-started)
