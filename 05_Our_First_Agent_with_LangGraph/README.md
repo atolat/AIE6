@@ -7,7 +7,7 @@
 
 | 🤓 Pre-work | 📰 Session Sheet | ⏺️ Recording     | 🖼️ Slides        | 👨‍💻 Repo         | 📝 Homework      | 📁 Feedback       |
 |:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
-| [Session 5: Pre-Work](https://www.notion.so/Session-5-Agents-with-LangGraph-1c8cd547af3d81068e44d4e4b901a9a8?pvs=4#1c8cd547af3d81578bedd1d2b11ab888)| [Session 5: Agents with LangGraph](https://www.notion.so/Session-5-Agents-with-LangGraph-1c8cd547af3d81068e44d4e4b901a9a8) | Coming Soon! | [Session 5: Agents](https://www.canva.com/design/DAGjaRyDT1Y/KNp2qc2InaW17ljF6KbsVg/view?utm_content=DAGjaRyDT1Y&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1931d92799)| Coming Soon! | [Session 5 Assignment: Agents with LangGraph](https://forms.gle/bA9BN2bgNLMNB9HXA)| [AIE6 Feedback 4/15](https://forms.gle/Fgb5K4PDKokvtX787)
+| [Session 5: Pre-Work](https://www.notion.so/Session-5-Agents-with-LangGraph-1c8cd547af3d81068e44d4e4b901a9a8?pvs=4#1c8cd547af3d81578bedd1d2b11ab888)| [Session 5: Agents with LangGraph](https://www.notion.so/Session-5-Agents-with-LangGraph-1c8cd547af3d81068e44d4e4b901a9a8) | Coming Soon! | [Session 5: Agents](https://www.canva.com/design/DAGjaRyDT1Y/KNp2qc2InaW17ljF6KbsVg/view?utm_content=DAGjaRyDT1Y&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1931d92799)| You Are Here! | [Session 5 Assignment: Agents with LangGraph](https://forms.gle/bA9BN2bgNLMNB9HXA)| [AIE6 Feedback 4/15](https://forms.gle/Fgb5K4PDKokvtX787)
 
 
 In today's assignment, we'll be creating an Agentic LangChain RAG Application.
